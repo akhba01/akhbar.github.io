@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
@@ -50,7 +50,7 @@
   <section class="jumbotron text-center">
     <img src="img/profile.jpg" alt="Ahmad Akhbar" width="200" class="rounded-circle img-thumbnail" />
     <h1 class="display-4">Ahmad Akhbar F</h1>
-    <p class="lead">Web Enthusiast</p>
+    <p class="lead"></p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
         d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,90.7C672,43,768,21,864,64C960,107,1056,213,1152,250.7C1248,288,1344,256,1392,240L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -61,18 +61,18 @@
 
   <!-- About -->
   <section id="about">
-    <div class="container">
+    <div class="container" data-aos-offset="200">
       <div class="row text-center">
         <div class="col">
           <h2>About Me</h2>
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center mb-3">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores suscipit cumque modi alias sapiente
             consequuntur magnam, eum impedit exercitationem libero, velit nisi deserunt?</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo vitae, nihil fugiat cumque atque
             obcaecati quis praesentium deleniti reiciendis quas animi quos, similique aliquid iste ea.</p>
         </div>
@@ -86,7 +86,7 @@
   </section>
   <!-- Akhir About -->
 
-  <!-- Projecrs -->
+  <!-- Projects -->
   <section id="projects">
     <div class="container">
       <div class="row text-center mb-3">
@@ -95,45 +95,45 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-duration="500">
           <div class="card">
-            <img src="https://source.unsplash.com/800x600/?nature,water" class="card-img-top" alt="unsplash" />
+            <img src="https://source.unsplash.com/800x600/?nature,water" class="card-img-top" alt="project1" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-duration="500" data-aos-delay="100">
           <div class="card">
-            <img src="https://source.unsplash.com/800x600/?water" class="card-img-top" alt="unsplash" />
+            <img src="https://source.unsplash.com/800x600/?water" class="card-img-top" alt="project2" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-duration="500" data-aos-delay="200">
           <div class="card">
-            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="unsplash" />
+            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="project3" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-duration="500" data-aos-delay="300">
           <div class="card">
-            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="unsplash" />
+            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="project4" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-duration="500" data-aos-delay="400">
           <div class="card">
-            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="unsplash" />
+            <img src="https://source.unsplash.com/800x600/?sky" class="card-img-top" alt="project5" />
             <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
@@ -149,6 +149,71 @@
     </svg>
   </section>
   <!-- Akhir Projects -->
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img" >
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#">
+            <img src="https://source.unsplash.com/300x300/?random" alt="random" class="img-fluid gallery-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Gallery -->
+
 
   <!-- Contact -->
   <section id="contact">
@@ -203,7 +268,32 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    const galleryImage = document.querySelectorAll('.gallery-img')
 
+    galleryImage.forEach((img, i) => {
+      img.dataset.aos = 'fade-down';
+      img.dataset.aosDelay = i * 100;
+      img.dataset.aosDuration = 1000;
+    })
+
+    AOS.init({
+      once: true,
+      duration: 2000
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+
+  <script>
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Web Enthusiast' })
+    gsap.from('.jumbotron img', {duration : 1, y: -100, opacity: 0, ease: 'bounce'});
+    gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' })
+    gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' })
+  </script>
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxmhSVhFh7QpH7ya4CMJ7B1yUbYs8ZY7uzWgQpZ8f1Y04h5hjPzgtbKzjkNuN2VYgPv3A/exec'
     const form = document.forms['wpu-contact-form']
@@ -221,7 +311,7 @@
       btnKirim.classList.toggle('d-none');
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
-      // tampilkan tombol loading, hilangkan tombol kirim
+          // tampilkan tombol loading, hilangkan tombol kirim
           btnLoading.classList.toggle('d-none');
           btnKirim.classList.toggle('d-none');
           // tampilkan alert
