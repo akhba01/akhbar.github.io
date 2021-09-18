@@ -1,12 +1,26 @@
 .jumbotron {
     padding-top: 6rem;
     background-color: #ffc10791;
+    height: 100vh;
+    position: relative;
 }
 
+.wave1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* padding: 6rem; */
+    /* top: 0; */
+    /* background-color: black; */
+    /* z-index: -1; */
+}
 #projects {
     background-color: #ffc10791;
 }
 
+/* .jumbotron .btngit {
+    z-index: 1;
+} */
 section{
     padding-top: 5rem;
 }
@@ -17,4 +31,15 @@ section{
 
 #gallery .row > * {
     padding: 0;
+}
+
+/* Media Query ketika di Mobile */
+@media (max-width: 576px){
+    btn-github{
+        width: 90%;
+    }
+
+    nav .navbar{
+        background-color: black !important;
+    }
 }
